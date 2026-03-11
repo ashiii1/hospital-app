@@ -212,6 +212,32 @@ nav ul li {
   }
 }
 
+
+@media (max-width:900px){
+
+  .nav-links{
+    display:none;
+  }
+
+  .hamburger{
+    display:none;
+  }
+
+  .sidebar{
+    display:none;
+  }
+
+  .mobile-bottom-nav{
+    display:flex;
+  }
+
+}
+
+
+
+
+
+
 /* MOBILE BOTTOM NAV */
 
 .mobile-bottom-nav{
