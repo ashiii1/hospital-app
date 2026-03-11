@@ -118,3 +118,75 @@
   font-size: 0.28in;
   font-weight: 600;
 }
+
+
+/* MOBILE FIX ONLY */
+
+@media screen and (max-width:768px){
+
+  /* Banner fix */
+  .about-banner{
+    height:220px;
+    background-size:cover;
+    background-position:center;
+  }
+
+  /* Page padding */
+  .about-content{
+    padding:25px 15px;
+  }
+
+  .about-content h1{
+    font-size:26px;
+  }
+
+  /* About cards fix */
+  .about-sections{
+    grid-template-columns:1fr;
+    gap:18px;
+  }
+
+  .about-card{
+    width:100%;
+    padding:22px;
+  }
+
+  .about-card h3{
+    font-size:20px;
+  }
+
+  .about-card p{
+    font-size:15px;
+  }
+
+  /* Organization chart image */
+  .organization-image{
+    width:100%;
+    height:auto;
+  }
+
+  /* Departments grid fix */
+  .departments-container{
+    grid-template-columns:1fr;
+    gap:20px;
+  }
+
+  .department-card{
+    width:100%;
+    height:auto;
+    padding:15px;
+    border-radius:14px;
+  }
+
+  .department-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+  }
+
+  .department-card span{
+    font-size:16px;
+    margin-top:8px;
+  }
+
+}

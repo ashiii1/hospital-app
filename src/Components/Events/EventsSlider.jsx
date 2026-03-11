@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./Events.css";
 import event1 from "../../assets/Test-1.png";
-import event2 from "../../assets/Test-2.png";
 import event3 from "../../assets/Test-3.png";
 import event4 from "../../assets/Test-1.png";
 
-const images = [event1, event2, event3, event4];
+const images = [event1, event3, event4];
 
 const EventsSlider = () => {
   const [current, setCurrent] = useState(0);

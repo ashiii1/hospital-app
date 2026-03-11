@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import "./NavBar.css";
 import logo from "../../assets/Logo.png"
 import HeadLogo from "../../assets/Logo_Header.png"
+import { FaHome, FaUserMd, FaBriefcase, FaInfoCircle, FaPhone } from "react-icons/fa";
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false)
@@ -55,6 +56,34 @@ const NavBar = () => {
         </ul>
       </div>
       {menuOpen && <div className="overlay" onClick={() => setMenuOpen(false)}></div>}
+
+      {/* Mobile Bottom Navigation */}
+<div className="mobile-bottom-nav">
+  <Link to="/">
+    <FaHome />
+    <span>Home</span>
+  </Link>
+
+  <Link to="/doctors">
+    <FaUserMd />
+    <span>Doctors</span>
+  </Link>
+
+  <Link to="/careers">
+    <FaBriefcase />
+    <span>Careers</span>
+  </Link>
+
+  <Link to="/about">
+    <FaInfoCircle />
+    <span>About</span>
+  </Link>
+
+  <Link to="/contact">
+    <FaPhone />
+    <span>Contact</span>
+  </Link>
+</div>
     </>
   )
 }

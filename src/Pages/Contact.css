@@ -33,3 +33,45 @@
   line-height: 1.6;
   text-align: center;
 }
+
+/* CONTACT PAGE MOBILE FIX */
+
+@media (max-width:768px){
+
+  /* Page container */
+  .contact-page{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  /* Banner */
+  .contact-banner{
+    height:200px;
+    background-size:cover;
+    background-position:center;
+  }
+
+  /* Content section */
+  .contact-content{
+    width:100%;
+    max-width:100%;
+    margin:20px auto;
+    padding:20px 15px;
+    font-size:16px;
+  }
+
+  .contact-content h1{
+    font-size:24px;
+  }
+
+  .contact-content p{
+    font-size:14px;
+  }
+
+  /* Fix Complaints component overflow */
+  .contact-page *{
+    max-width:100%;
+    box-sizing:border-box;
+  }
+
+}

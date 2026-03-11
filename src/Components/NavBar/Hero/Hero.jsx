@@ -15,7 +15,7 @@ const Hero = ({ onScroll }) => {
           you deserve
         </p>
         <button className="Btn" onClick={onScroll}>
-          Explore More <img src="" alt="" />
+          Book Appointment <img src="" alt="" />
         </button>
       </div>
     </div>
