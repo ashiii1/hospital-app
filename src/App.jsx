@@ -6,7 +6,7 @@ import hospitalLogo from "../src/assets/Logo.png";
 import Footer from './Components/Footer/Footer';
 import ChatBot from './Components/ChatBot/ChatBot';
 import Events from './Components/Events/Events';
-
+import NavBar from './Components/NavBar/NavBar';
 
 function App () {
   useEffect(() => {
@@ -22,6 +22,7 @@ function App () {
   };
   return (
     <div>
+      <NavBar/>
        <Hero onScroll={scrollToAbout}/>
       <div className="container">
         <Title title='OUR SERVICES'/>
