@@ -179,30 +179,38 @@ nav ul li {
     display: flex;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
-
-  .navbar {
-    padding: 10px 20px;   
+  .nav-links {
+    display: none;
   }
 
-  .navbar.scrolled {
-    padding: 8px 20px;   
+  .hamburger {
+    display: none;
   }
 
-  .logo {
-    width: 55px;        
+  .sidebar {
+    display: none;
   }
 
-  .dark-nav .logo {
-    width: 50px;         
+  .mobile-bottom-nav {
+    display: flex;
   }
-
-  .sidebar-logo img {
-    width: 150px;         
-  }
-
 }
-
 
 /* MOBILE BOTTOM NAV */
 
