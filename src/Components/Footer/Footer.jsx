@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
           <div className="footer-column">
-            <h3>Recuenco General Hospital Inc.</h3>
+            <h3>Demo General Hospital Inc.</h3>
             <p className="address-link">
               <a 
                 href="https://www.google.com/maps/search/?api=1&query=No.+68+Sampaloc+Extension,+North+Signal+Village,+Taguig+City,+Metro+Manila,+1630" 
@@ -29,7 +29,7 @@ const Footer = () => {
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  recuencomedical@gmail.com
+                  Demomedical@gmail.com
                 </a>
               </div>
               <div className="contact-row">
@@ -46,19 +46,19 @@ const Footer = () => {
             <div className="social-row">
               <FontAwesomeIcon icon={faFacebookF} className="social-icon"/>
               <a href="https://www.facebook.com/recuencogenhospital" target="_blank" rel="noopener noreferrer">
-                Recuenco General Hospital Inc.
+                Demo General Hospital Inc.
               </a>
             </div>
             <div className="social-row">
               <FontAwesomeIcon icon={faInstagram} className="social-icon"/>
               <a href="https://www.instagram.com/rghi.2025" target="_blank" rel="noopener noreferrer">
-                Recuenco General Hospital Inc.
+                Demo General Hospital Inc.
               </a>
             </div>
             <div className="social-row">
               <FontAwesomeIcon icon={faXTwitter} className="social-icon"/>
               <a href="https://x.com/RGHI2025" target="_blank" rel="noopener noreferrer">
-                Recuenco General Hospital Inc.
+                Demo General Hospital Inc.
               </a>
             </div>
           </div>
@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
 
       <div className="footer-bottom">
-        © Recuenco General Hospital | All Rights Reserved
+        © Demo General Hospital | All Rights Reserved
       </div>
     </footer>
   );

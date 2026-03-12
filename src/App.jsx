@@ -10,7 +10,7 @@ import NavBar from './Components/NavBar/NavBar';
 
 function App () {
   useEffect(() => {
-    document.title = "Recuenco General Hospital"
+    document.title = "Demo General Hospital"
     const favicon = document.querySelector("link[rel='icon']") || document.createElement("link")
     favicon.rel = "icon"
     favicon.type = "image/png"

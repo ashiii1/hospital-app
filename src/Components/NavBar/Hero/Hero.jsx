@@ -5,7 +5,7 @@ const Hero = ({ onScroll }) => {
   return (
     <div className="hero">
       <div className="hero-text">
-        <h1>Recuenco General Hospital</h1>
+        <h1>Demo General Hospital</h1>
         <p>
           Our hospital is dedicated to providing you 
           with the best possible care in a compassionate 
